@@ -14,4 +14,5 @@ Project Architecture
 OpenSky API ↓ Python ETL ↓ Supabase PostgreSQL ↓ Power BI Dashboard
 
 Project Status
-🚧 In Development
+🚧 In Development testttt
+
