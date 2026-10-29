@@ -6,6 +6,12 @@ response = requests.get(url)
 
 data = response.json()
 
-first_aircraft = data["states"][0]
+aircraft = data["states"][0]
 
-print(first_aircraft)
+print("ICAO24:", aircraft[0])
+print("Callsign:", aircraft[1])
+print("Country:", aircraft[2])
+print("Longitude:", aircraft[5])
+print("Latitude:", aircraft[6])
+print("Altitude:", aircraft[7])
+print("Velocity:", aircraft[9])
